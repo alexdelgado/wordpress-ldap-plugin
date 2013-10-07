@@ -1,0 +1,7 @@
+# Aptana
+.buildpath
+.project
+.setting
+
+# OS X
+.DS_Stores
