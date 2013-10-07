@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+h2.nav-tab-wrapper {
+	margin-top: 15px;
+}
+
+.ldap-options .ldap-message {
+	border: 1px solid;
+	margin: 0px;
+	padding: .01em 1em;
+}
+.ldap-options .ldap-success {
+	background: none repeat scroll 0 0 #E6EFC2;
+    border-color: #C6D880;
+    color: #264409;
+}
+.ldap-options .ldap-error {
+	background: none repeat scroll 0 0 #FBE3E4;
+    border-color: #FBC2C4;
+    color: #8A1F11;
+}
+.ldap-options .ldap-message p {
+	margin: .5em 0em;
+}
+.ldap-options legend {
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 15px 0px 5px 0px;
+}
+.ldap-options label {
+	display: block;
+	padding: 5px 0px;
+}
+.ldap-options input[type="text"],
+.ldap-options input[type="password"] {
+	padding: 5px;
+	width: 400px;
+}
